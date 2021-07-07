@@ -101,8 +101,11 @@ header {
   }
   
 /* Hero Style Start */
+
+
+
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: assets\images\hero-bg.jpg;
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -254,16 +257,18 @@ header {
     background: #024e76;
     color: #fce138;
   }
-  .trainer img overflow: auto. {
+  .trainer img {
     width: 35%;
     float: left;
   }
+  .trainer {overflow: auto;}
   
-  .trainer-bio overflow: auto. {
+  .trainer-bio {
     padding: 35px;
     float: left;
     width: 65%;
   }
+  
   .text-left {
     text-align: left;
   }
